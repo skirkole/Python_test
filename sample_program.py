@@ -10,7 +10,7 @@ def greet(name: str) -> str:
 
 def add_numbers(a: int, b: int) -> int:
     """Return the sum of two integers."""
-    return a + b
+    return a * b
 
 
 def add_numpy_arrays(a: np.ndarray, b: np.ndarray) -> np.ndarray:
